@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Price to Cash Flow Ratio Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="pricetocashflowratioRadio" name="variables" checked>
+  <label for="pricetocashflowratioRadio">Price to cash flow ratio</label>
+
+  <input type="radio" id="cashflowRadio" name="variables">
+  <label for="cashflowRadio">Cash flow</label>
+
+  <input type="radio" id="numberofsharesoutstandingRadio" name="variables">
+  <label for="numberofsharesoutstandingRadio">Number of shares outstanding</label>
+
+  <input type="radio" id="pricepershareRadio" name="variables">
+  <label for="pricepershareRadio">Price per share</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Cash flow</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Number of shares outstanding</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">Price per share</label>
+  <input type="number" id="v3"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
